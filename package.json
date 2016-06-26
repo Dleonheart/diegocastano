@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.8"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.0.0",
+    "bourbon": "^4.2.6",
+    "gsap": "^1.18.2",
+    "jquery": "^2.2.1",
+    "laravel-elixir": "^4.0.0",
+    "pixi-particles": "^1.5.1",
+    "pixi.js": "github:goodboydigital/pixi.js",
+    "progressbar.js": "^1.0.0",
+    "scrollmagic": "^2.0.5",
+    "vue": "^1.0.17",
+    "vue-router": "^0.7.11"
+  }
+}

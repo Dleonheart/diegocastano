@@ -1,0 +1,96 @@
+
+
+/*=========================================
+=            for small screens            =
+=========================================*/
+
+@media only screen and (max-width: 950px) {
+
+	.mainNavigation {
+		margin-bottom: 1em;
+	}
+}
+
+
+/*=====  End of for small screens  ======*/
+
+
+@media only screen and (min-width: 780px) {
+
+	.dynamicContent {
+		flex-direction:row !important;
+			.column {
+				&.dominant {
+					flex-basis:55%;
+
+				}
+
+				&.shrink35{
+					flex-basis: 35%;
+					width: 35%;
+				}
+				&:first-child {
+					margin-right: 1.6em;
+				}
+			}
+}
+
+	.supportingImage {
+			display:block !important;
+			position:absolute;
+			bottom: -7px;
+    		right: -358px;
+
+	}
+}
+
+
+@media only screen and (min-width: 950px) {
+
+
+	body {
+		font-size:16px;
+	}
+
+	.masterContent {
+
+		.generalContainer {
+
+			padding: 77px 147px;
+
+			.mainNavigation {
+				background : url(../img/menu_background.png) center center no-repeat !important;
+				margin:0 !important;
+				position: absolute;
+				top:90px;
+				display:inline-block;
+				width:375px;
+				height:252px;
+				padding-top: 1.5em !important;
+    			padding-right: 1em !important;
+				box-shadow:none !important;
+				transform: translateX(-190px);
+
+			}
+
+		}
+
+		.pageTop {
+
+
+			.quote {
+				width:70%;
+				right:0;
+				float:right;
+				font-size: 1em;
+
+			}
+		}
+
+
+
+
+	}
+
+
+}
